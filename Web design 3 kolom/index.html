@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <title>Tugas PemWeb</title>
+        <style>
+
+            html{
+                font-family: 'Times New Roman', Times, serif;
+            }
+            #container {
+                background-color:yellow;
+                border: 1px black solid;
+                width: 900px;
+                margin:auto;
+                padding: 10px;
+            }
+
+            #header {
+                background-color:yellowgreen;
+                border: 1px black solid;
+                height: 100px;
+              
+            }
+
+            #menu {
+                background-color:yellowgreen;
+                border: 1px black solid;
+                height: 50px;
+                margin-top: 10px;
+            }
+
+            #menu ul {
+                margin-top: 10px;
+                margin-left: -20px;
+            }
+
+            #menu li {
+                background-color:white;
+                border: 1px black solid;
+                list-style: none;
+                margin-right: 5px;
+                padding: 5px 10px 5px 10px;
+                float: left;
+            }
+
+            #menu li a:link, a:visited {
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
+
+            #menu li a:hover {
+                text-decoration: underline;
+            }
+
+            #leftbar {
+                background-color:white;
+                border: 1px black solid;
+                width: 23%;
+                margin-top: 10px;
+                margin-right: 10px;
+                float: left;
+            }
+
+            #leftbar ul {
+                margin-left: -40px;
+            }
+
+            #leftbar li {
+                list-style: none;
+                padding: 5px;
+            }
+
+            #leftbar li a:link, a:visited {
+                text-decoration: none;
+                color: black;
+            }
+
+            #rightbar {
+                background-color:white;
+                border: 1px black solid;
+                width: 23%;
+                margin-top: 10px;
+                float: right;
+            }
+
+            #rightbar ul {
+                margin-left: -40px;
+            }
+
+            #rightbar li {
+                list-style: none;
+                padding: 5px;
+            }
+
+            #content {
+                background-color:white;
+                border: 1px black solid;
+                width: 51%;
+                padding-bottom: 50px;
+                margin-top: 10px;
+                float: left;
+            }
+
+            #footer {
+                background-color:white;
+                border: 1px black solid;
+                margin-top: 10px;
+            }
+
+            #footer p {
+                font-weight: bold;
+                padding:0 20px 0 20px;
+            }
+
+            .judul {
+                font-size: 25px;
+                font-weight: bold;
+                padding: 20px 20px 0 20px;
+            }
+
+            .isi {
+                font-size: 12px;
+                padding: 0 20px 10px 20px;
+            }
+
+            .sidebar {
+                font-weight: bold;
+                padding:10px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <div class="judul">Bagian Header</div>
+                <div class="isi">Tugas Design Web</div>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Contact me</a></li>
+                </ul>
+            </div>
+            <div id="leftbar">
+                <div class="sidebar">Bab</div>
+                <div class="isi">
+                    <ul>
+                        <li><a href="#">Rekayasa Perangkat Lunak</a></li>
+                        <li><a href="#">Multimedia</a></li>
+                        <li><a href="#">Jaringan Komputer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="rightbar">
+                <div class="sidebar">Sub bab</div>
+                <div class="isi">
+                    <ul>
+                        <li><a href="#">Animasi</a></li>
+                        <li><a href="#">Sitem Operasi</a></li>
+                        <li><a href="#">Pemrograman Web</a></li>
+                        <li><a href="#">Basis Data</a></li>
+                        <li><a href="#">Teknik komputasi</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="content">
+                <div class="judul">Apa Itu Animasi</div>
+                <div class="isi">
+                    <p>
+                        Animasi merupakan gambar bergerak berbentuk dari sekumpulan objek yang disusun secara beraturan mengikuti pergerakan yang telah ditentukan pada setiap pertambahan hitungan waktu yang terjadi. Gambar atau objek yang dimaksud dalam definisi diatas bisa berupa gambar manusia, hewan, maupun tulisan
+                    </p>
+                    <ul>
+                        <li>Animasi 3d</li>
+                        <li>Animasi Stop Motion</li>
+                        <li>Animasi 2d</li>
+                        <li>Isometric</li>
+                        <li>infografis</li>
+                    </ul>
+                    <p>
+                        Animasi tidak hanya dinikmati oleh anak-anak tetapi juga orang dewasa
+                    </p>
+                </div>
+            </div>
+
+            <div style="clear:both;"></div>
+
+            <div id="footer">
+                <p>Bagian Footer</p>
+            </div>
+        </div>
+    </body>
+</html>
